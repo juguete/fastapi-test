@@ -21,6 +21,9 @@ WSL(Debian/Ubuntu) 기본 Python은 전역 설치가 제한되므로 프로젝�
 ## 애플리케이션 실행
 uvicorn app.main:app --reload
 
+### shell 로 실행(under ubuntu)
+./startup.sh
+
 ## 테스트
 pytest
 
